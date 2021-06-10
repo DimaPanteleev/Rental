@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rental>
+  <car id="1" brand="Subaru" price="2000" cost="800000" cartype="Sport"/>
+  <car id="2" brand="Lada" price="500" cost="450000" cartype="EliteVIP"/>
+  <car id="3" brand="Honda" price="2000" cost="900000" cartype="Sport"/>
+  <car id="4" brand="BMW" price="10000" cost="2000000" cartype="Premium"/>
+  <car id="5" brand="Porshce" price="20000" cost="25000000" cartype="Supercar"/>
+
+  <client id="1" surname="Hugo" name="Boss" middlename="Azerovich" address="Izmaylova, 9" phone="89616465584"/>
+  <client id="2" surname="Green" name="Oleg" middlename="Skomoroh" address="Mira, 2" phone="89372622737"/>
+  <client id="3" surname="Shevtsov" name="Alexey" middlename="Pavlovich" address="Italy st, 12/2" phone="88005553535"/>
+  <client id="4" surname="Mad" name="Max" middlename="Maximovich" address="Desert №3" phone="89991112233"/>
+
+  <activeCar id="1" car="4" client="1" dateOfTake="02.06.2021" dateOfReturn="03.06.2021"/>
+  <activeCar id="2" car="2" client="2" dateOfTake="02.06.2021" dateOfReturn="02.07.2021"/>
+  <activeCar id="3" car="5" client="3" dateOfTake="26.05.2021" dateOfReturn="10.06.2021"/>
+  <activeCar id="4" car="1" client="4" dateOfTake="01.04.2021" dateOfReturn="01.06.2021"/>
+</rental>
